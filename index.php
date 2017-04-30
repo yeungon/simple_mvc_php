@@ -25,6 +25,10 @@ $m_func = $controller . '_' . $method;
 if (is_readable($c_file)) {
     include $c_file;
     call_user_func($m_func);
+    
+    
+    // is_readable — Tells whether a file exists and is readable
+    
 } else {
     die("OMG (☞ ͡° ͜ʖ ͡°)☞ Page not found !");
 }

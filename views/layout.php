@@ -1,7 +1,7 @@
 <<!DOCTYPE html>
 <html>
 <head>
-<title>Simple MVC</title>
+<title>Simple MVC - Testing MVC</title>
 
 <link rel="stylesheet" href="./styles/css/bootstrap.min.css">
 <link rel="stylesheet" href="./styles/css/styles.css">
@@ -18,10 +18,8 @@
       </div>
     </div>
     <div id='content' class='row-fluid'>
-    <div class='span3 sidebar'>
-        Nothing here
-    </div>
-      <div class='span6 main'>
+    
+      <div class='span9 main'>
         <?php include ROOT . DS . 'views' . DS . $template_file; ?>
       </div>
       <div class='span3 sidebar'>s
